@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.skys  {
+    height: 790px;
+    background-image: url(../image/istockphoto-536507269-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.sun {
+    height: 250px;
+    width: 250px;
+    background-image: url(../image/The_Sun_in_high_resolution_pillars.jpg);
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    border-radius: 100%;
+    animation: rotate 5s linear infinite ;
+}   
+.planet {
+    height: 80px;
+    width: 90px;
+    background-image: url(../image/Earth_Western_Hemisphere.jpg);
+    background-size: 100%;
+    position:absolute;
+    top: 50%;
+    right: 60%;
+    border-radius: 100%;
+    animation: example 5s linear infinite ;
+}
+@keyframes example {
+    /* 0%   { left:500px; top:500px;}
+  25%  { left:450px; top:450px;}
+  50%  { left:350px; top:350px;}
+  /* 75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}  */ 
+  0%   { left:0px; top:50%;}
+  100% { left:94%; top:50%;} 
+}
